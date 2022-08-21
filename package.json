@@ -1,16 +1,24 @@
 {
   "name": "test-next",
   "version": "0.0.57",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next"
+  },
   "dependencies": {
-    "next": "12.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "@types/node": "^18.7.8",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "react-is": "^17.0.2"
   },
   "devDependencies": {
-    "@types/react": "^18",
+    "@types/react": "^18.0.17",
     "bun-framework-next": "^12",
-    "typescript": "latest",
+    "typescript": "^4.7.4",
     "react-refresh": "0.10.0"
   },
   "module": "index.js"
